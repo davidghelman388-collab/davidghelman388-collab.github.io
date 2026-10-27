@@ -1,0 +1,309 @@
+# ============================================================
+# 谭立星 | Academic Homepage
+# CareerCanvas + Hugo
+# ============================================================
+
+baseURL = "https://davidghelman388-collab.github.io/"
+locale = "zh-CN"
+title = "谭立星 | 个人主页"
+theme = "careercanvas"
+
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+
+# ============================================================
+# 中文
+# ============================================================
+
+[languages]
+
+  [languages.zh]
+
+    contentDir = "content/zh"
+    label = "中文"
+    locale = "zh-CN"
+
+    title = "谭立星 | 个人主页"
+    weight = 1
+
+    [languages.zh.params]
+
+      # 首页主标题
+      tagline = "金融工程 · 金融学 · 数据科学"
+
+      # 首页个人简介
+      hero_description = "大连理工大学经济学本科生，预计 2027 年毕业。关注金融工程、金融学与数据科学，探索金融理论与机器学习在资产定价中的结合。"
+      home_featured_projects = ["option-pricing", "quant-investment"]
+
+      # 所在地
+      hero_location = "大连理工大学"
+
+      # 首页标签
+      collab_tags = [
+        "Financial Engineering",
+        "Finance",
+        "Data Science"
+      ]
+
+      copyright = "谭立星"
+      resume_url = "/files/lixing-tan-cv-zh.pdf"
+      article_date_format = "2006 年 01 月 02 日"
+
+    [[languages.zh.menus.main]]
+      name = "首页"
+      url = "#home"
+      weight = 10
+
+    [[languages.zh.menus.main]]
+      name = "项目"
+      pageRef = "/projects"
+      weight = 40
+
+    [[languages.zh.menus.main]]
+      name = "简历"
+      url = "/files/lixing-tan-cv-zh.pdf"
+      weight = 50
+
+    [[languages.zh.menus.main]]
+      name = "经历与荣誉"
+      pageRef = "/experience"
+      weight = 60
+
+    [[languages.zh.menus.main]]
+      name = "关于我"
+      pageRef = "/about"
+      weight = 75
+
+
+# ============================================================
+# English language site configuration
+# ============================================================
+
+  [languages.en]
+
+    contentDir = "content/en"
+    label = "English"
+    locale = "en"
+
+    title = "Lixing Tan | Academic Homepage"
+    weight = 2
+
+    [languages.en.params]
+
+      name = "Lixing Tan"
+      firstName = "Lixing"
+      lastName = "Tan"
+      author = "Lixing Tan"
+
+      tagline = "Financial Engineering · Finance · Data Science"
+      hero_description = "Economics undergraduate at Dalian University of Technology, graduating in 2027. Interested in financial engineering, finance, and data science, with research connecting asset pricing and machine learning."
+      home_featured_projects = ["option-pricing", "quant-investment"]
+      hero_location = "Dalian University of Technology"
+      description = "Lixing Tan's academic and professional homepage — financial engineering, finance, and data science."
+
+      collab_tags = [
+        "Financial Engineering",
+        "Finance",
+        "Data Science"
+      ]
+
+      copyright = "Lixing Tan"
+      resume_url = "/files/lixing-tan-cv-en.pdf"
+      article_date_format = "January 2, 2006"
+
+    [[languages.en.menus.main]]
+      name = "Home"
+      url = "#home"
+      weight = 10
+
+    [[languages.en.menus.main]]
+      name = "Projects"
+      pageRef = "/projects"
+      weight = 40
+
+    [[languages.en.menus.main]]
+      name = "CV"
+      url = "/files/lixing-tan-cv-en.pdf"
+      weight = 50
+
+    [[languages.en.menus.main]]
+      name = "Experience"
+      pageRef = "/experience"
+      weight = 60
+
+    [[languages.en.menus.main]]
+      name = "About"
+      pageRef = "/about"
+      weight = 75
+
+
+# ============================================================
+# 构建
+# ============================================================
+
+[build]
+  writeStats = true
+
+
+# ============================================================
+# 个人信息
+# ============================================================
+
+[params]
+
+  name = "谭立星"
+  firstName = "谭"
+  lastName = "立星"
+
+  # 学术公开邮箱
+  email = "tanlixing27@163.com"
+
+  # 头像
+  profile_image = "/images/portrait.jpg"
+
+  # 作者
+  author = "谭立星"
+
+  # SEO / Open Graph 图片
+  og_image = "/images/portrait.jpg"
+
+  # 网站描述
+  description = "谭立星的个人学术主页——金融工程、金融学与数据科学研究及实践。"
+
+
+  # ==========================================================
+  # 社交账号
+  # ==========================================================
+
+  # LinkedIn
+  linkedin_url = ""
+  linkedin_text = ""
+
+  # GitHub
+  github_url = "https://github.com/davidghelman388-collab"
+  github_text = "github.com/davidghelman388-collab"
+
+
+  # ==========================================================
+  # 其他功能
+  # ==========================================================
+
+  calendly_url = ""
+  calendly_height = "700px"
+
+  copyright = "© 2026 | 谭立星"
+
+  # 暂时没有英文 / 法文简历
+  resume_url = "/files/lixing-tan-cv-zh.pdf"
+  resume_url_en = ""
+  resume_url_fr = ""
+
+  resume_label = "查看简历"
+
+  sectionPagesMenu = "main"
+
+  formspreeendpoint = ""
+
+  pexelsapikey = ""
+
+
+  # ==========================================================
+  # 首页社交图标
+  # ==========================================================
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/davidghelman388-collab"
+
+
+# ============================================================
+# 标签系统
+# ============================================================
+
+[taxonomies]
+
+  tag = "tags"
+
+
+# ============================================================
+# Markdown
+# ============================================================
+
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+
+      unsafe = true
+
+  [markup.highlight]
+
+    style = "monokai"
+
+
+# ============================================================
+# 本地开发服务器
+# ============================================================
+
+[server]
+
+  [[server.headers]]
+
+    for = "/**/*.css"
+
+    [server.headers.values]
+
+      Content-Type = "text/css"
+
+
+# ============================================================
+# Hugo 安全配置
+# ============================================================
+
+[security]
+
+  [security.funcs]
+
+    getenv = ['^HUGO_', '^CI$']
+
+
+# ============================================================
+# Node.js 权限
+# 当前 Hugo + Tailwind 开发环境需要
+# ============================================================
+
+[security.node.permissions]
+
+  disable = true
+
+
+# ============================================================
+# CareerCanvas 固定灰色调
+# ============================================================
+
+[params.color_palettes]
+
+  [[params.color_palettes.palette]]
+
+    name = "professional"
+
+    main_color = "#474A51"
+
+    second_color = "#E52521"
+
+    third_color = "#3CB043"
+
+
+# ============================================================
+# Pexels 背景
+# ============================================================
+
+[params.pexels]
+
+  queries = [
+    "finance",
+    "data science",
+    "financial engineering"
+  ]

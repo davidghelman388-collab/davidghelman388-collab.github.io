@@ -1,0 +1,7 @@
+@media (max-width:560px) {
+  .page-heading:before { inset:0; }
+  .profile-strip { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .profile-strip>div { min-width:0; }
+  .profile-strip>div:nth-child(3) { padding-left:0; border-left:0; }
+  .profile-strip>div>span { display:block; }
+}

@@ -1,0 +1,290 @@
+{
+  "en": {
+    "name": "Lixing Tan",
+    "otherName": "谭立星",
+    "nav": [
+      "About",
+      "Research",
+      "Experience",
+      "Toolkit",
+      "Contact"
+    ],
+    "eyebrow": "ECONOMICS · FINANCE · DATA",
+    "headline": "Exploring finance through theory and data.",
+    "intro": "I am an Economics undergraduate at Dalian University of Technology, interested in financial engineering, finance, and data science. My work connects financial models with empirical analysis and machine learning.",
+    "primary": "Explore my research",
+    "secondary": "Get in touch",
+    "portraitCaption": "LIXING TAN / ECONOMICS UNDERGRADUATE",
+    "aboutTitle": "A foundation in economics.\nA curiosity for what comes next.",
+    "aboutText": "My academic path combines economics coursework, an exchange year at Xiamen University, and research in quantitative finance. Through banking and insurance internships, I have also explored how analysis supports everyday business decisions. I am pursuing opportunities for further study and professional growth in finance and data.",
+    "education": "Education",
+    "school": "Dalian University of Technology",
+    "degree": "Bachelor of Economics in Economics · 2023–2027 (expected)",
+    "grade": "Average grade 87.3/100 · Top 15%",
+    "exchange": "Academic exchange · Xiamen University",
+    "exchangeDate": "September 2024 – July 2025 · Economics",
+    "researchTitle": "Where financial theory meets empirical work.",
+    "published": "PUBLISHED RESEARCH · 2026",
+    "paperTitle": "Stock Index Option Pricing Based on the BS-XGBoost Hybrid Model: Evidence from CSI 300 and SSE 50 Index Options",
+    "paperSummary": "A hybrid residual correction approach: Black–Scholes provides the baseline, and XGBoost learns the remaining pricing error. The study uses 2023–2024 CSMAR daily data and evaluates performance on CSI 300 and SSE 50 index options.",
+    "resultsNote": "Results reported in the published paper; performance is specific to the study’s data and evaluation setup.",
+    "metrics": [
+      "Lower MSE vs. standalone BS",
+      "Reported R²",
+      "Publication date"
+    ],
+    "paperLink": "Read publication",
+    "citationLabel": "Copy citation",
+    "citationDone": "Citation copied",
+    "citationFail": "Select and copy the citation below.",
+    "projectTitle": "Big Data-Driven Quantitative Investment Strategy",
+    "projectDate": "RESEARCH PROJECT · APRIL–MAY 2026",
+    "projectSummary": "Studied asset pricing, portfolio construction, and risk–return analysis. Applied descriptive statistics, portfolio analysis, and Fama–MacBeth regressions to investigate equity factors and investment strategy performance. Completed a research report and final presentation.",
+    "experienceTitle": "Learning across research and industry.",
+    "jobs": [
+      {
+        "company": "China Construction Bank · Nanchang",
+        "role": "General Administration Department Intern",
+        "date": "JUL–AUG 2025",
+        "text": "Supported document classification and digitization, maintained administrative records, and assisted with internal communications and meeting coordination."
+      },
+      {
+        "company": "Chow Tai Fook Life Insurance · Hong Kong",
+        "role": "Intern",
+        "date": "MAY–JUL 2025",
+        "text": "Worked on customer data cleaning, descriptive analysis, regression, and K-means segmentation; produced analytical reports and a presentation to support business decisions."
+      },
+      {
+        "company": "Agricultural Bank of China · Suzhou",
+        "role": "Wealth Management & Mortgage Department Intern",
+        "date": "JAN 2025",
+        "text": "Supported wealth product research, client file organization, customer enquiries, and mortgage-related processes."
+      }
+    ],
+    "awardsTitle": "Selected achievements",
+    "awards": [
+      "National First Prize · Business Elite Challenge, Brand Planning / Digital Marketing · 2026",
+      "National First Prize · Business Elite Challenge, Marketing Simulation Decision-Making · 2025",
+      "National Third Prize · Mathematics Competition of Chinese College Students · 2025",
+      "Provincial Third Prize · MathorCup Mathematical Modeling Competition · 2024"
+    ],
+    "toolTitle": "Tools I learn and work with.",
+    "toolIntro": "A growing toolkit for programming, econometrics, data analysis, and research workflows.",
+    "toolNote": "Tools used in study and projects; inclusion does not imply a proficiency rating.",
+    "personalTitle": "Beyond the spreadsheet.",
+    "personalText": "Outside my studies, I enjoy playing football and singing—two ways I make room for teamwork, expression, and time away from the screen.",
+    "football": "Football",
+    "singing": "Singing",
+    "contactTitle": "Let’s start a conversation.",
+    "contactText": "For opportunities in financial engineering, finance, and data science—academic or professional—please get in touch.",
+    "backTop": "Back to top",
+    "footer": "Built with Hugo · Research, experience & a little curiosity.",
+    "navigation": [
+      "Home",
+      "Research",
+      "Experience",
+      "About",
+      "CV"
+    ],
+    "themeLabel": "Toggle color theme",
+    "menuLabel": "Open navigation",
+    "detailsLabel": "Explore the project",
+    "cvLabel": "View my CV",
+    "pdfLabel": "Download PDF CV",
+    "homeHeadline": "Lixing Tan",
+    "homeSubtitle": "An economics foundation. A focus on finance & data.",
+    "homeBio": "Economics undergraduate at Dalian University of Technology, graduating in 2027. Interested in financial engineering, finance, and data science, with research connecting asset pricing and machine learning.",
+    "selectedTitle": "Selected research & projects",
+    "allProjects": "All research & projects",
+    "identity": "Economics undergraduate · Dalian University of Technology",
+    "pathTitle": "From classroom foundations to research and practice.",
+    "pathText": "An exchange year at Xiamen University, machine learning research in option pricing, and internships across banking and insurance shape how I approach financial questions.",
+    "focusTitle": "Questions that interest me",
+    "focus": [
+      {
+        "title": "Financial engineering",
+        "text": "How can classical pricing models and machine learning work together to capture nonlinear market deviations?"
+      },
+      {
+        "title": "Finance",
+        "text": "How can empirical methods help us understand asset prices, market frictions, and risk–return relationships?"
+      },
+      {
+        "title": "Data science",
+        "text": "How do data cleaning and feature design lead to meaningful model evaluation?"
+      }
+    ],
+    "groups": [
+      {
+        "title": "Programming & data",
+        "tools": [
+          "Python",
+          "NumPy",
+          "pandas"
+        ],
+        "text": "Data cleaning, numerical operations, and tabular analysis."
+      },
+      {
+        "title": "Statistics & econometrics",
+        "tools": [
+          "EViews",
+          "SPSS"
+        ],
+        "text": "Statistical analysis and econometrics coursework."
+      },
+      {
+        "title": "Visualization & workflow",
+        "tools": [
+          "Matplotlib",
+          "Jupyter",
+          "GitHub"
+        ],
+        "text": "Charts, interactive experiments, and project organization."
+      }
+    ]
+  },
+  "zh": {
+    "name": "谭立星",
+    "otherName": "Lixing Tan",
+    "nav": [
+      "关于我",
+      "研究成果",
+      "实践经历",
+      "工具技能",
+      "联系我"
+    ],
+    "eyebrow": "经济学 · 金融 · 数据",
+    "headline": "以金融理论为起点，\n用数据探索问题。",
+    "intro": "我是大连理工大学经济学专业本科生，关注金融工程、金融学与数据科学。希望将金融模型、实证分析与机器学习结合，理解市场中的实际问题。",
+    "primary": "了解研究成果",
+    "secondary": "与我联系",
+    "portraitCaption": "谭立星 / 经济学本科生",
+    "aboutTitle": "立足经济学，\n探索金融与数据的交汇。",
+    "aboutText": "我的学习经历涵盖经济学课程、厦门大学交流学习以及量化金融研究。在银行与保险公司的实习中，我也逐渐了解数据分析如何服务于实际业务决策。目前，我希望在金融与数据相关方向继续深造，并探索职业发展机会。",
+    "education": "教育背景",
+    "school": "大连理工大学",
+    "degree": "经济学专业 · 经济学学士（预计）· 2023–2027",
+    "grade": "平均成绩 87.3/100 · 前 15%",
+    "exchange": "厦门大学 · 交流学习",
+    "exchangeDate": "2024 年 9 月—2025 年 7 月 · 经济学",
+    "researchTitle": "让金融理论与实证分析相遇。",
+    "published": "已发表论文 · 2026",
+    "paperTitle": "基于 BS 与 XGBoost 混合模型的股指期权定价研究——以沪深300及上证50为例",
+    "paperSummary": "以 Black–Scholes 模型提供基准价格，再使用 XGBoost 学习定价残差。研究使用 CSMAR 数据库 2023—2024 年日度数据，在沪深300及上证50股指期权上开展实证分析。",
+    "resultsNote": "以下为已发表论文报告的结果，仅对应研究中的数据与评估设置。",
+    "metrics": [
+      "相较单独 BS 模型的 MSE 降幅",
+      "论文报告的 R²",
+      "正式发表日期"
+    ],
+    "paperLink": "查看正式发表页面",
+    "citationLabel": "复制引用",
+    "citationDone": "已复制引用",
+    "citationFail": "请选中下方引用文字进行复制。",
+    "projectTitle": "大数据驱动的量化投资策略研究",
+    "projectDate": "科研项目 · 2026 年 4—5 月",
+    "projectSummary": "学习资产定价、投资组合构建与风险收益分析，使用描述性统计、投资组合分析及 Fama–MacBeth 回归研究股票因子与策略表现，完成研究报告及最终展示。",
+    "experienceTitle": "在研究与实践中积累理解。",
+    "jobs": [
+      {
+        "company": "中国建设银行 · 南昌",
+        "role": "综合管理部门实习生",
+        "date": "2025.07–08",
+        "text": "参与部门文件分类与数字化整理、行政记录维护，协助内部文件准备与会议协调。"
+      },
+      {
+        "company": "周大福人寿 · 香港",
+        "role": "实习生",
+        "date": "2025.05–07",
+        "text": "参与客户数据清洗、描述性分析、回归与 K-means 客户分群，制作分析报告和展示材料，为业务决策提供支持。"
+      },
+      {
+        "company": "中国农业银行 · 苏州",
+        "role": "财富管理与房贷部门实习生",
+        "date": "2025.01",
+        "text": "协助理财产品研究、客户档案整理、客户咨询及房贷相关业务流程。"
+      }
+    ],
+    "awardsTitle": "部分荣誉",
+    "awards": [
+      "全国一等奖 · 全国高校商业精英挑战赛品牌策划竞赛（数字营销赛道）· 2026",
+      "全国一等奖 · 全国高校商业精英挑战赛创新创业竞赛（营销模拟决策赛道）· 2025",
+      "全国三等奖 · 全国大学生数学竞赛 · 2025",
+      "省级三等奖 · MathorCup 高校数学建模挑战赛 · 2024"
+    ],
+    "toolTitle": "学习与实践中的工具。",
+    "toolIntro": "用于编程、计量经济分析、数据处理和研究协作的工具。",
+    "toolNote": "展示学习与项目中使用过的工具，不代表熟练度评级。",
+    "personalTitle": "也热爱球场与音乐。",
+    "personalText": "学习之外，我喜欢踢足球和唱歌。球场上的配合、音乐中的表达，让我在屏幕之外保持活力，也为生活留下不同的节奏。",
+    "football": "足球",
+    "singing": "唱歌",
+    "contactTitle": "期待与你交流。",
+    "contactText": "欢迎就金融工程、金融学、数据科学方向的深造、研究与职业机会联系我。",
+    "backTop": "返回顶部",
+    "footer": "使用 Hugo 构建 · 记录研究、实践与好奇心。",
+    "navigation": [
+      "首页",
+      "研究与项目",
+      "经历与荣誉",
+      "关于我",
+      "简历"
+    ],
+    "themeLabel": "切换深浅色",
+    "menuLabel": "展开导航",
+    "detailsLabel": "查看项目详情",
+    "cvLabel": "查看简历",
+    "pdfLabel": "下载 PDF 简历",
+    "homeHeadline": "谭立星",
+    "homeSubtitle": "经济学背景，关注金融与数据。",
+    "homeBio": "大连理工大学经济学本科生，预计 2027 年毕业。关注金融工程、金融学与数据科学，探索金融理论与机器学习在资产定价中的结合。",
+    "selectedTitle": "代表研究与项目",
+    "allProjects": "全部研究与项目",
+    "identity": "经济学本科生 · 大连理工大学",
+    "pathTitle": "从课堂到研究，再到业务实践。",
+    "pathText": "在厦门大学交流学习，在股指期权定价研究中实践机器学习，也在银行与保险公司的实习中了解业务与数据。",
+    "focusTitle": "我关注的问题",
+    "focus": [
+      {
+        "title": "金融工程",
+        "text": "经典定价模型如何与机器学习结合，刻画市场中的非线性偏差？"
+      },
+      {
+        "title": "金融学",
+        "text": "资产价格、市场摩擦与风险收益关系，如何用实证方法理解？"
+      },
+      {
+        "title": "数据科学",
+        "text": "如何从数据清洗、特征构建走向清晰可信的模型评估？"
+      }
+    ],
+    "groups": [
+      {
+        "title": "编程与数据处理",
+        "tools": [
+          "Python",
+          "NumPy",
+          "pandas"
+        ],
+        "text": "用于数据清洗、数组运算与表格数据分析。"
+      },
+      {
+        "title": "统计与计量分析",
+        "tools": [
+          "EViews",
+          "SPSS"
+        ],
+        "text": "用于统计分析与计量经济学学习。"
+      },
+      {
+        "title": "可视化与研究工作流",
+        "tools": [
+          "Matplotlib",
+          "Jupyter",
+          "GitHub"
+        ],
+        "text": "用于图表表达、交互式实验与项目管理。"
+      }
+    ]
+  }
+}

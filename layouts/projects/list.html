@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="pt-8 pb-12 bg-bg dark:bg-bg" data-animate>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-3xl font-bold text-center mb-6 font-heading text-text-primary dark:text-text-primary">{{ .Title }}</h1>
+    <div class="prose prose-lg max-w-none markdown-content dark:prose-invert prose-gray mb-8">
+      {{ .Content }}
+    </div>
+    <nav class="flex flex-wrap gap-3 mb-12" aria-label="{{ .Title }}">
+      {{ range .Params.project_groups }}
+      <a href="#{{ .id }}" class="px-4 py-2 rounded-full border border-border-primary text-text-primary hover:text-primary transition-colors">{{ .title }}</a>
+      {{ end }}
+    </nav>
+    {{ $projects := .RegularPages.ByWeight }}
+    {{ range .Params.project_groups }}
+    <section id="{{ .id }}" class="mb-12 scroll-mt-24" aria-labelledby="{{ .id }}-title">
+      <div class="mb-6 border-b border-border-primary pb-4">
+        <p class="text-sm text-text-secondary mb-2">{{ .period }}</p>
+        <h2 id="{{ .id }}-title" class="text-2xl font-bold font-heading text-text-primary mb-3">{{ .title }}</h2>
+        <p class="text-text-secondary leading-relaxed">{{ .description }}</p>
+      </div>
+      <div class="project-list grid gap-5">
+        {{ range where $projects "Params.stage" .id }}
+          {{ partial "project-card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,22 @@
+<a href="{{ .RelPermalink }}" class="project-list-link block group">
+  <article class="project-card project-list-card rounded-xl border border-border-primary overflow-hidden">
+    {{ with .Params.featured_image }}
+    <div class="project-list-cover">
+      <img src="{{ . }}" alt="{{ $.Params.featured_image_alt | default $.Title }}" loading="lazy" decoding="async">
+    </div>
+    {{ end }}
+    <div class="project-list-copy p-5">
+      {{ with .Params.period }}<p class="text-xs text-text-secondary mb-2">{{ . }}</p>{{ end }}
+      <h3 class="text-lg font-semibold text-text-primary leading-relaxed mb-2">{{ .Title }}</h3>
+      {{ with .Description }}<p class="text-sm text-text-secondary leading-relaxed mb-3">{{ . }}</p>{{ end }}
+      {{ with .Params.tags }}
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}<span class="bg-bg-secondary text-text-primary px-2 py-1 rounded-full text-xs border border-border-primary">{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.outcomes }}
+      <p class="project-outcomes mt-3 text-xs text-text-secondary leading-relaxed opacity-80"><em>{{ delimit . " · " }}</em></p>
+      {{ end }}
+    </div>
+  </article>
+</a>

@@ -1,0 +1,23 @@
+{
+  "name": "lixing-tan-personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node node_modules/tailwindcss/lib/cli.js -i themes/careercanvas/assets/css/main.css -o static/css/template.css --minify",
+    "build": "npm run css && hugo --minify",
+    "dev": "npm run css && hugo server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  },
+  "private": true
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale | default .Site.Language.Lang }}">
+<head>
+    <!-- Prevent dark mode flash -->
+    <script>
+        // Default to light mode; restore dark mode only when explicitly selected.
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+        }
+    </script>
+    {{ partial "head.html" . }}
+    
+    <!-- Color Variables - Load first to ensure CSS custom properties are available -->
+    {{ partial "color-variables.html" . }}
+    
+    <link rel="stylesheet" href="{{ "vendor/fonts/fonts.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "vendor/fontawesome/css/all.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/template.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/personal.css" | relURL }}">
+    <style>
+        /* Critical CSS to prevent FOUC */
+        body {
+            visibility: visible;
+        }
+        .dark body {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body class="bg-bg dark:bg-bg text-text-primary dark:text-text-primary flex flex-col min-h-screen transition-colors duration-200">
+
+    {{ partial "nav.html" . }}
+    <div class="w-full h-16"></div>
+
+    <main class="flex-grow">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    {{ $scripts := resources.Get "js/scripts.js" }}
+    {{ $gsap := resources.Get "js/gsap-animations.js" }}
+    {{ $pexels := resources.Get "js/pexels-background.js" }}
+    {{ $deviconFallback := resources.Get "js/devicon-fallback.js" }}
+    {{ if eq hugo.Environment "production" }}
+      {{ $scripts = $scripts | minify | fingerprint }}
+      {{ $gsap = $gsap | minify | fingerprint }}
+      {{ $pexels = $pexels | minify | fingerprint }}
+      {{ $deviconFallback = $deviconFallback | minify | fingerprint }}
+    {{ end }}
+    {{ partial "pexels-config.html" . }}
+    <script src="{{ $scripts.RelPermalink }}"></script>
+    <script src="{{ $deviconFallback.RelPermalink }}"></script>
+    <script src="{{ "vendor/gsap/gsap.min.js" | relURL }}"></script>
+    <script src="{{ $gsap.RelPermalink }}"></script>
+    <script defer src="{{ "js/template-personal.js" | relURL }}"></script>
+    <script src="{{ $pexels.RelPermalink }}"></script>
+
+
+    <!-- Dark mode toggle script -->
+    <script>
+        // Default to light mode; restore dark mode only when explicitly selected.
+        if (localStorage.getItem('darkMode') === 'true') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+
+        // Show content after styles are loaded
+        window.addEventListener('load', function() {
+            document.body.style.visibility = 'visible';
+        });
+    </script>
+</body>
+</html>

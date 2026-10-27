@@ -1,0 +1,20 @@
+<a href="{{ .RelPermalink }}" class="block group h-full">
+  <article class="project-card home-project-card h-full rounded-xl border border-border-primary shadow-sm">
+    <div class="p-5">
+      <h3 class="text-lg font-semibold text-text-primary leading-relaxed mb-2">{{ .Title }}</h3>
+      {{ with .Description }}
+      <p class="text-sm text-text-secondary leading-relaxed mb-3">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.tags }}
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}
+        <span class="bg-bg-secondary text-text-primary px-2 py-1 rounded-full text-xs border border-border-primary">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.outcomes }}
+      <p class="project-outcomes mt-3 text-xs text-text-secondary leading-relaxed opacity-80"><em>{{ delimit . " · " }}</em></p>
+      {{ end }}
+    </div>
+  </article>
+</a>

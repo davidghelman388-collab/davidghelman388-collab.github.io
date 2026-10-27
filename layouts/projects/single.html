@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="project-detail pt-8 pb-12 bg-bg dark:bg-bg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {{ with .Site.GetPage "/projects" }}<a href="{{ .RelPermalink }}" class="inline-block text-sm text-text-secondary hover:underline mb-6">&larr; {{ i18n "allProjects" }}</a>{{ end }}
+    <header class="project-detail-header mb-8">
+      {{ with .Params.period }}<p class="text-sm text-text-secondary mb-2">{{ . }}</p>{{ end }}
+      <h1 class="text-3xl font-bold font-heading text-text-primary leading-relaxed mb-3">{{ .Title }}</h1>
+      {{ with .Description }}<p class="text-text-secondary leading-relaxed mb-4">{{ . }}</p>{{ end }}
+      {{ with .Params.tags }}
+      <div class="flex flex-wrap gap-2">{{ range . }}<span class="text-xs text-text-secondary border border-border-primary rounded-full px-3 py-1">{{ . }}</span>{{ end }}</div>
+      {{ end }}
+      {{ with .Params.outcomes }}<p class="mt-3 text-sm text-text-secondary leading-relaxed opacity-80"><em>{{ delimit . " · " }}</em></p>{{ end }}
+    </header>
+    <div class="project-detail-layout">
+      <div class="min-w-0">
+        {{ with .Params.project_summary }}
+        <section class="project-summary mb-8" aria-labelledby="project-summary-title">
+          <h2 id="project-summary-title" class="text-lg font-semibold text-text-primary mb-4">{{ i18n "projectSummary" }}</h2>
+          <dl class="space-y-4">
+            {{ range . }}<div><dt class="text-sm font-semibold text-text-primary mb-1">{{ .label }}</dt><dd class="text-sm text-text-secondary leading-relaxed">{{ .value }}</dd></div>{{ end }}
+          </dl>
+        </section>
+        {{ end }}
+        <div class="project-detail-body prose prose-lg max-w-none markdown-content dark:prose-invert prose-gray">{{ .Content }}</div>
+      </div>
+      <aside class="project-detail-sidebar min-w-0">
+        {{ with .Params.attachments }}
+        <section class="mb-8" aria-labelledby="project-files-title">
+          <h2 id="project-files-title" class="text-lg font-semibold text-text-primary mb-4">{{ i18n "projectAttachments" }}</h2>
+          <ul class="space-y-4">
+            {{ range . }}<li><a href="{{ .url | relURL }}" target="_blank" rel="noopener noreferrer" class="text-sm text-text-primary underline underline-offset-2">{{ .title }}</a><p class="project-file-name text-xs text-text-secondary mt-1">{{ .filename }}</p></li>{{ end }}
+          </ul>
+        </section>
+        {{ end }}
+        {{ with .TableOfContents }}
+        <nav class="project-detail-toc text-sm text-text-secondary" aria-label="{{ i18n "projectContents" }}">
+          <h2 class="text-lg font-semibold text-text-primary mb-3">{{ i18n "projectContents" }}</h2>
+          {{ . }}
+        </nav>
+        {{ end }}
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}
