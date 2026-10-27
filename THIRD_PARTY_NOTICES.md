@@ -38,6 +38,12 @@ GSAP 使用其 Standard No Charge License，**不是 MIT**。当前核对的官�
 
 ## 构建依赖与不启用的功能
 
+## 教育背景标识与个人图形
+
+大连理工大学与厦门大学校徽来自各自学校官网，仅在教育身份及教育经历中说明本人就读/交流背景；保持原始图案和比例，不作为本站个人商标。官方来源和使用说明见 `static/images/education/SOURCES.md`。学校标识的权利归各自学校，不随本站的代码许可授予。
+
+LT 个人标识、研究封面和背景曲面为本站原创 SVG；曲面与封面线条是概念性视觉，不代表真实行情、预测样本或回测收益。论文结果表与实际数据图仍沿用已核对终稿。
+
 Tailwind CSS、PostCSS、Autoprefixer 与 typography 插件仅用于构建；其依赖版本由 `package-lock.json` 固定，各许可证保存在安装包中。Tailwind MIT 许可另保留于 `static/vendor/TAILWIND-LICENSE.txt`。
 
 未启用 Pexels 图片 API，不使用其图片或复制 API 密钥；保留模板自身的渐变、斜线与变形曲线动效。没有使用 FsLightbox，相关运行时引用已移除。

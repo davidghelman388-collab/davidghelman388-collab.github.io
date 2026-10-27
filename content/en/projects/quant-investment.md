@@ -15,6 +15,8 @@ outcomes:
 - Research project · April–May 2026
 aliases:
 - /en/research/quant-investment/
+featured_image: /images/research/quant-investment.svg
+featured_image_alt: Asset pricing and factor analysis concept
 ---
 
 ## Overview

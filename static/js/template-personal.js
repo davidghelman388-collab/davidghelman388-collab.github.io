@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  const button=document.createElement('button');button.className='motion-control';hero.append(button);
  let paused=reduced.matches;
  const apply=()=>{
+   hero.classList.toggle('is-motion-paused',paused||document.hidden);
    if(paused){gsap.globalTimeline.pause();hero.querySelectorAll('[data-animation]').forEach(e=>{e.style.opacity='1'});}
    else if(!document.hidden)gsap.globalTimeline.resume();
    button.textContent=paused?(zh?'播放背景动效 ▷':'Play background motion ▷'):(zh?'暂停背景动效 Ⅱ':'Pause background motion Ⅱ');
@@ -17,6 +18,6 @@ document.addEventListener('DOMContentLoaded',()=>{
  };
  button.addEventListener('click',()=>{paused=!paused;apply()});
  reduced.addEventListener('change',e=>{paused=e.matches;apply()});
- document.addEventListener('visibilitychange',()=>{if(paused)gsap.globalTimeline.pause()});
+ document.addEventListener('visibilitychange',apply);
  apply();
 });

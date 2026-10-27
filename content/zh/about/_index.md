@@ -12,9 +12,13 @@ education:
 - school: 大连理工大学
   degree: 经济学专业 · 经济学学士（预计）· 2023–2027 · 平均成绩 87.3/100 · 前 15%
   period: 2023.09 – 2027.06
+  logo: /images/education/dlut.png
+  school_url: https://www.dlut.edu.cn/
 - school: 厦门大学
   degree: 经济学交流学习
   period: 2024.09 – 2025.07
+  logo: /images/education/xmu.jpg
+  school_url: https://www.xmu.edu.cn/
 quickfacts:
 - title: 关注方向
   kind: interests

@@ -23,9 +23,13 @@ education:
   degree: Bachelor of Economics in Economics · 2023–2027 (expected) · Average grade
     87.3/100 · Top 15%
   period: 2023.09 – 2027.06
+  logo: /images/education/dlut.png
+  school_url: https://www.dlut.edu.cn/
 - school: Xiamen University
   degree: Academic exchange · Economics
   period: 2024.09 – 2025.07
+  logo: /images/education/xmu.jpg
+  school_url: https://www.xmu.edu.cn/
 quickfacts:
 - title: Interests
   kind: interests

@@ -1,0 +1,8 @@
+{{ $zh := eq .Language.Lang "zh" }}
+<section class="academic-identity" aria-label="{{ if $zh }}教育身份{{ else }}Academic background{{ end }}">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 academic-row">
+    <div class="academic-intro"><span>ECONOMICS → FINANCE + DATA</span><p>{{ if $zh }}以经济学为基础，连接金融与数据。{{ else }}An economics foundation. A financial and data perspective.{{ end }}</p></div>
+    <a href="https://www.dlut.edu.cn/" target="_blank" rel="noopener noreferrer" class="academic-school"><img src="{{ "images/education/dlut.png" | relURL }}" alt="{{ if $zh }}大连理工大学校徽{{ else }}Dalian University of Technology emblem{{ end }}" width="56" height="56"><span><strong>{{ if $zh }}大连理工大学{{ else }}Dalian University of Technology{{ end }}</strong><small>{{ if $zh }}经济学本科 · 2023—2027（预计）{{ else }}Bachelor of Economics · 2023–2027 (expected){{ end }}</small></span><span class="school-arrow" aria-hidden="true">↗</span></a>
+    <a href="https://www.xmu.edu.cn/" target="_blank" rel="noopener noreferrer" class="academic-school exchange-school"><img src="{{ "images/education/xmu.jpg" | relURL }}" alt="{{ if $zh }}厦门大学校徽{{ else }}Xiamen University emblem{{ end }}" width="56" height="56"><span><strong>{{ if $zh }}厦门大学{{ else }}Xiamen University{{ end }}</strong><small>{{ if $zh }}经济学交流 · 2024—2025{{ else }}Economics exchange · 2024–2025{{ end }}</small></span><span class="school-arrow" aria-hidden="true">↗</span></a>
+  </div>
+</section>

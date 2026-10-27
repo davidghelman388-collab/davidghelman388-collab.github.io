@@ -15,6 +15,8 @@ outcomes:
 - 已发表论文 · ICEMGD 2026
 aliases:
 - /zh/research/option-pricing/
+featured_image: /images/research/option-pricing.svg
+featured_image_alt: BS 与 XGBoost 残差修正方法示意
 ---
 
 ## 研究概览

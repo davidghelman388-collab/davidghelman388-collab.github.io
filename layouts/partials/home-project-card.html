@@ -1,5 +1,6 @@
 <a href="{{ .RelPermalink }}" class="block group h-full">
   <article class="project-card home-project-card h-full rounded-xl border border-border-primary shadow-sm">
+    {{ with .Params.featured_image }}<div class="personal-project-cover"><img src="{{ . | relURL }}" alt="{{ $.Params.featured_image_alt }}" width="640" height="220" loading="lazy"></div>{{ end }}
     <div class="p-5">
       <h3 class="text-lg font-semibold text-text-primary leading-relaxed mb-2">{{ .Title }}</h3>
       {{ with .Description }}

@@ -14,6 +14,8 @@ outcomes:
 - 科研项目 · 2026 年 4—5 月
 aliases:
 - /zh/research/quant-investment/
+featured_image: /images/research/quant-investment.svg
+featured_image_alt: 资产定价与因子分析概念图
 ---
 
 ## 项目概览

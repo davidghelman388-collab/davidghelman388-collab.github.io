@@ -16,6 +16,8 @@ outcomes:
 - Published paper · ICEMGD 2026
 aliases:
 - /en/research/option-pricing/
+featured_image: /images/research/option-pricing.svg
+featured_image_alt: BS–XGBoost residual correction concept
 ---
 
 ## Overview

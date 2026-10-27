@@ -41,6 +41,8 @@
 
 ## 样式与动画
 
+个人视觉使用蓝青配色、LT 与数据曲线结合的个人标识、两校教育身份区，以及原创期权/量化项目封面。当前主要覆盖样式为 static/css/identity.css。两校校徽的官方来源与使用说明见 static/images/education/SOURCES.md；图案保持原样，区别展示本科与交流经历。研究封面和动态曲面为概念性装饰，不代表真实行情或实验结果。
+
 themes/careercanvas/ 保留原主题；layouts/ 为同学的覆盖实现和本站适配。static/css/template.css 为构建结果，static/css/personal.css 仅适配本人研究图表、头像裁切和动效控制。原 GSAP 动画脚本不替换为本站旧版本的 Canvas 背景。
 
 GSAP、字体、图标均使用本地文件。没有启用 Pexels 图片 API 或 FsLightbox，没有复制同学的私人素材或密钥。暂停按钮及系统减少动态效果设置可控制原 GSAP 动画。

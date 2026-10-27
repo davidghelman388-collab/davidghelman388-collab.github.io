@@ -280,7 +280,7 @@ defaultContentLanguageInSubdir = true
 
 
 # ============================================================
-# CareerCanvas 固定灰色调
+# 个人蓝青配色
 # ============================================================
 
 [params.color_palettes]
@@ -289,11 +289,11 @@ defaultContentLanguageInSubdir = true
 
     name = "professional"
 
-    main_color = "#474A51"
+    main_color = "#0756A6"
 
-    second_color = "#E52521"
+    second_color = "#0F877F"
 
-    third_color = "#3CB043"
+    third_color = "#24B8A8"
 
 
 # ============================================================
