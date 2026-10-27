@@ -36,7 +36,7 @@
         </div>
         <!-- Name -->
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-3 font-heading leading-tight hero-name hero-text-element text-gray-900 dark:text-white" data-animation="name">
-          {{ .Site.Params.firstName }} {{ .Site.Params.lastName }}
+          {{ if eq .Language.Lang "zh" }}{{ .Site.Params.name }}{{ else }}{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}{{ end }}
         </h1>
         <h2 class="text-lg md:text-xl mb-4 font-medium hero-text-accent hero-text-element text-gray-700 dark:text-white" data-animation="tagline">
           {{ .Site.Params.tagline }}

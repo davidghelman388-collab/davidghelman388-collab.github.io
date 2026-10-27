@@ -1,4 +1,6 @@
 /* Lixing Tan: personal academic identity, separate from institutional branding. */
+.hero-section .motion-control{display:none!important}
+@media(min-width:1024px){#skills .grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:1120px;margin-inline:auto}}
 :root{--color-bg:#fff;--color-bg-secondary:#f1f6fc;--color-text-primary:#112e4b;--color-text-secondary:#4a6179;--color-border:#dbe5f0;--card-bg:#fff;--card-text:#173858;--card-muted:#536b83;--card-border:#dbe5f0;--card-inset:#f1f6fc}
 :root.dark{--color-bg:#0d1929;--color-bg-secondary:#14243a;--color-bg-tertiary:#1b304a;--color-text-primary:#e8f0fb;--color-text-secondary:#b7c8df;--color-border:#2c425e;--card-bg:#172b43;--card-text:#e8f0fb;--card-muted:#b7c8df;--card-border:#304a67;--card-inset:#203a56}
 .hero-intro .contrast-card{--color-text-secondary:#4a6179;--color-text-primary:#112e4b}.dark .hero-intro .contrast-card{--color-text-secondary:#b7c8df;--color-text-primary:#e8f0fb}.hero-intro .hero-button+.hero-button{color:#143b64!important}.dark .hero-intro .hero-button+.hero-button{color:#e0edfc!important}
