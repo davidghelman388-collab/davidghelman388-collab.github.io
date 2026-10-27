@@ -1,0 +1,7 @@
+/public/
+/resources/
+/.hugo_build.lock
+/.tools/
+/tmp/
+/node_modules/
+/hugo_stats.json
