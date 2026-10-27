@@ -53,9 +53,9 @@ GSAP、字体、图标均使用本地文件。没有启用 Pexels 图片 API 或
 
 ## GitHub Pages
 
-已配置 .github/workflows/hugo.yaml：安装锁定 Node 依赖、编译 Tailwind、构建 Hugo，然后部署 Pages。尚未创建或推送远端仓库，也未对外发布。
+已配置 .github/workflows/hugo.yaml：安装锁定 Node 依赖、编译 Tailwind、构建 Hugo，然后部署 Pages。已发布到 GitHub Pages；后续推送 main 分支会自动构建部署。
 
-目标地址：https://davidghelman388-collab.github.io/ 。在该账号创建同名仓库后，将 Pages Source 设为 GitHub Actions。
+公开地址：https://davidghelman388-collab.github.io/ 。中文入口 /zh/，英文入口 /en/。仓库已启用 GitHub Actions 部署及 HTTPS。
 
 ## 备份与公开资料
 

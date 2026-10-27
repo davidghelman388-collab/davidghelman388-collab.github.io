@@ -6,7 +6,7 @@
 
 用户已转达同学回复：“没事儿，你随便用”，对应此前复制、修改、发布至个人网站与 GitHub 仓库的使用请求。定制代码的迁移已据此完成，无需重复确认。原主题 MIT 许可、第三方版权及来源说明均已保留，详见 `THIRD_PARTY_NOTICES.md`。GSAP 已核对官方 Standard No Charge License；本网站的普通页面动画用途在其允许范围内。Font Awesome 字体与 CSS、Google Fonts 字体、Devicon 图标均保留各自许可。
 
-模板源码提交为 `1ba17f17be715deb6f34570b5f15e2b8e06eb1fe`，已在本地替换用户资料并进行构建与浏览器验证。当前版本未对外发布。下文是授权前的核查记录，其中“等待确认”状态已由本节更新。
+模板源码提交为 `1ba17f17be715deb6f34570b5f15e2b8e06eb1fe`，已在本地替换用户资料并进行构建与浏览器验证。当前版本已于 2026-10-27 发布到 https://davidghelman388-collab.github.io/ ，通过 GitHub Actions 构建部署。下文是授权前的核查记录，其中“等待确认”状态已由本节更新。
 
 来源仓库：https://github.com/xiong-H6776/xiong-H6776.github.io ，main 分支。
 
